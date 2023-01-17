@@ -106,24 +106,27 @@ button {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .info-box-wrapper {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 44px;
 }
 
 .info-box {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-style: solid;
   border-color: #3882f6;
   border-radius: 8px;
 }
 
 .info-text {
-  width: 100px;
+  width: 150px;
+  text-align: center;
 }
 
 .quote-wrapper {
@@ -157,6 +160,9 @@ button {
 
 .footer-wrapper {
   flex-basis: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-text {
