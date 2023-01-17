@@ -19,7 +19,7 @@ body {
 }
 
 .header-wrapper {
-  flex-basis: 25%;
+  flex-basis: 30%;
 }
 
 .upper-header {
@@ -98,6 +98,10 @@ button {
   color: #e5e7eb;
 }
 
+.information-wrapper {
+  flex-basis: 30%;
+}
+
 .info-header-text {
   font-size: 36px;
   font-weight: 900;
@@ -105,6 +109,7 @@ button {
 
 .quote-wrapper {
   background-color: #e5e7eb;
+  flex-basis: 20%;
 }
 
 .quote-text {
@@ -117,6 +122,10 @@ button {
   font-weight: 700;
 }
 
+.call-to-action-wrapper {
+  flex-basis: 16%;
+}
+
 .cta-container,
 .cta-sign-up {
   background-color: #3882f6;
@@ -125,6 +134,10 @@ button {
 
 .cta-title {
   font-weight: 700;
+}
+
+.footer-wrapper {
+  flex-basis: 4%;
 }
 
 .footer-text {
