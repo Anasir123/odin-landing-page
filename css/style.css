@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -12,9 +18,33 @@ body {
   background-color: #1f2937;
 }
 
+.header-wrapper {
+  flex-basis: 25%;
+}
+
 .upper-header {
   display: flex;
   padding-top: 12px;
+  margin: 0 auto;
+  /* width: 85%; */
+}
+
+.lower-header {
+  display: flex;
+}
+
+.left-lower-header {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: auto;
+}
+
+.right-lower-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
 }
 
 .hero-main-text {
@@ -28,6 +58,7 @@ body {
   font-size: 24px;
   color: #f9faf8;
   margin-right: auto;
+  font-weight: 900;
   /* padding-top: 10px; */
 }
 
@@ -56,6 +87,7 @@ button {
 .sign-up {
   background-color: #3882f6;
   color: #e5e7eb;
+  align-self: flex-start;
 }
 
 .image-placeholder {
@@ -81,10 +113,6 @@ button {
   font-weight: 700;
 }
 
-.call-to-action-wrapper {
-  background-color: #e5e7eb;
-}
-
 .cta-container,
 .cta-sign-up {
   background-color: #3882f6;
@@ -98,3 +126,11 @@ button {
 .footer-text {
   color: #e5e7eb;
 }
+
+/* .header-wrapper,
+.information-wrapper,
+.quote-wrapper,
+.call-to-action-wrapper,
+.footer-wrapper {
+  flex-basis: 20%;
+} */
