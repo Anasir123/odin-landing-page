@@ -105,6 +105,25 @@ button {
 .info-header-text {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.info-box-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info-box {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 8px;
+}
+
+.info-text {
+  width: 100px;
 }
 
 .quote-wrapper {
