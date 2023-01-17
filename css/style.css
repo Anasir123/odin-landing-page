@@ -82,6 +82,10 @@ a,
 
 button {
   font-family: inherit;
+  /* padding: 0; */
+  border: none;
+  border-radius: 4px;
+  /* background: none; */
 }
 
 .sign-up {
