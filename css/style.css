@@ -12,6 +12,11 @@ body {
   background-color: #1f2937;
 }
 
+.upper-header {
+  display: flex;
+  padding-top: 12px;
+}
+
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
@@ -22,10 +27,16 @@ body {
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+  margin-right: auto;
+  /* padding-top: 10px; */
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 24px;
 }
 
 a {
