@@ -156,12 +156,31 @@ button {
 
 .call-to-action-wrapper {
   flex-basis: 16%;
+  display: flex;
+  /* padding: 20px; */
+  justify-content: center;
+}
+
+.cta-container {
+  align-self: center;
+  display: flex;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 8px;
+  width: 600px;
+  /* justify-content: center; */
 }
 
 .cta-container,
 .cta-sign-up {
   background-color: #3882f6;
   color: #e5e7eb;
+}
+
+.left-cta {
+  margin-right: auto;
 }
 
 .cta-title {
