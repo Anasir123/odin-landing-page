@@ -20,12 +20,15 @@ body {
 
 .header-wrapper {
   flex-basis: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .upper-header {
   display: flex;
   padding-top: 12px;
-  margin: 0 auto;
+  margin-bottom: 150px;
+  /* margin: 0 auto; */
   /* width: 85%; */
 }
 
@@ -45,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightslategray;
+  width: 450px;
 }
 
 .hero-main-text {
@@ -106,8 +110,8 @@ button {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .info-box-wrapper {
