@@ -136,6 +136,11 @@ button {
 .quote-wrapper {
   background-color: #e5e7eb;
   flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .quote-text {
@@ -146,6 +151,7 @@ button {
 
 .quote-credit {
   font-weight: 700;
+  align-self: flex-end;
 }
 
 .call-to-action-wrapper {
