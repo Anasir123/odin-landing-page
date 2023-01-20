@@ -1,3 +1,3 @@
 # odin-landing-page
 
-The goal of this project is to create an aesthetic landing page using HTML and CSS, completely from scratch!
+An aesthetic landing page created completely from scratch using HTML and CSS. Flexbox is the primary layout mode used to achieve spacing for all elements.
